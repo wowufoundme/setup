@@ -1,3 +1,44 @@
+html {
+  --PRIMARY-BACKGROUND-COLOR: #ffffff;
+  --PRIMARY-TEXT-COLOR: #2e2e2e;
+  --PRIMARY-GREY: #a1a1a1;
+  --SECONDARY-GREY: #5a5a5a;
+  --PRIMARY-BLUE: #0599ff;
+}
+
+html[data-theme="dark"] {
+  --PRIMARY-BACKGROUND-COLOR: #101010;
+  --PRIMARY-TEXT-COLOR: #ffffff;
+  --PRIMARY-GREY: #a1a1a1;
+  --SECONDARY-GREY: #5a5a5a;
+  --PRIMARY-BLUE: #0599ff;
+}
+
 .App {
-  height: 10000px;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--PRIMARY-BACKGROUND-COLOR);
+  color: var(--PRIMARY-TEXT-COLOR);
+  transition: all .2s ease-in-out;
+}
+
+.container {
+  max-width: 960px;
+  min-height: 100vh;
+  padding: 100px 200px;
+}
+
+.themer {
+  outline: none;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  background: var(--PRIMARY-TEXT-COLOR);
+  color: var(--PRIMARY-BACKGROUND-COLOR);
+  font-weight: 300;
+  font-size: 16px;
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  right: 50px;
 }
