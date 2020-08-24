@@ -1,0 +1,22 @@
+.say-hello {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.say-hello h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hand-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 150%;
+}

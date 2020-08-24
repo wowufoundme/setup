@@ -1,0 +1,14 @@
+.lead-container {
+  margin: 30px 0;
+}
+
+.title {
+  font-family: 'Cormorant Garamond';
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
