@@ -12,3 +12,13 @@
   margin-top: 8px;
   margin-bottom: 8px;
 }
+
+.separator {
+  color: var(--PRIMARY-GREY);
+  margin: 0 5px;
+}
+
+.mh-10 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
