@@ -38,6 +38,7 @@ ul.list-expanded {
 
 ul.list-expanded li {
   list-style-type: "-";
+  padding-top: 4px;
   padding-left: 10px;
 }
 
